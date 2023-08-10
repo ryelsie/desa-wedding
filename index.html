@@ -13,13 +13,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
       rel="stylesheet"
     />
 
     <!-- simplyCountdown -->
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
     <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -36,6 +42,192 @@
         <div class="simply-countdown"></div>
         <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
       </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Desa</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Desa</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 9 November 2032 di Jakarta.</h3>
+            <p>
+              Oleh karena itu, dengan segala hormat, kami bermaksud untuk
+              mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan
+              kami.
+            </p>
+          </div>
+          <div class="row couple">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-8 text-end">
+                  <h3>Dea</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                    quod cumque quisquam unde possimus dolorem?
+                  </p>
+                  <p>
+                    Putra dari Bpk. Lorem <br />
+                    dan <br />
+                    Ibu Ipsum
+                  </p>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="img/dea2.jpg"
+                    alt="dea"
+                    class="img-responsive rounded-circle"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-4">
+                  <img
+                    src="img/santo.JPG"
+                    alt="santo"
+                    class="img-responsive rounded-circle"
+                  />
+                </div>
+                <div class="col-8 text-end">
+                  <h3>Santo</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                    quod cumque quisquam unde possimus dolorem?
+                  </p>
+                  <p>
+                    Putra dari Bpk. Ipsum <br />
+                    dan <br />
+                    Ibu Lorem
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat: Gereja Katedral Jakarta & The Ritz-Calton Jakarta. <br />
+              Jl. Katedral No.7B, Ps. Baru, Kecamatan Sawah Besar, Kota Jakarta
+              Pusat & Jl. DR. Ide Anak Agung Gde Agung No.1, Mega Kuningan,
+              Daerah Khusus Ibukota Jakarta
+            </p>
+            <a
+              href="https://goo.gl/maps/pH6W5KvBhz89NyA58"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Klik untuk membuka peta</a
+            >
+            <a
+              href="https://goo.gl/maps/mMJW2Yttem2QAo1u9"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Klik untuk membuka peta</a
+            >
+            <p class="description">
+              Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di
+              tujuan namun tidak ada tanda-tanda sedang dilangsungkan
+              pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Misa Perkawinan</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>10.00 - 11.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Selasa, 9 November 2032</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat misa diharapkan untuk kondusif menjaga kekhidmatan dan
+                kekhusyuan
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>12.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Selasa, 9 November 2032</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat resepsi diharapkan untuk kondusif menjaga kekhidmatan dan
+                kekhusyuan
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script
